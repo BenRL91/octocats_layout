@@ -5,6 +5,7 @@ ul {
 }
 /*main container, largest box*/
 body {
+	border-radius: 5px;
 	font-family: arial;
 	padding: 0px;
 	height: 500px;
@@ -20,45 +21,60 @@ body {
 }
 /*The images of the cats*/
 .octocat img {
-	margin:10px;
-	border: 3px solid lightgray
-;
+	border-radius: 5px;
+	border-bottom: none;
+	border: 3px solid lightgray;
 	height: 375px;
 	/*float: left;*/
 }
 li.octocat {
 	float: left;
+	border-bottom: 3px solid lightgray;
+	padding-bottom: 20px;
+	margin: 10px;
 }
-.image-footer {
+div.image-footer {
 	position: relative;
+	height: 50px;
 }
 .image-caption {
 	position: absolute;
 	right: 50px;
 	top:20px;
 }
+.authors {
+	float: right;
+}
 .authors img {
+	float: right;
 	border: none;
-	margin: 10px;
-	height: 40px;
-	position: absolute;
-	right: 20px;
-	bottom: 20px;
+	margin: 5px;
+	height: 25px;
 }
 .image-number {
 	color: lightgray;
 	float: left;
-	z-index: 1
+	margin-left: 3%;
+	margin-top:15px;
 }
 .image-caption a {
+	/*float: right;*/
 	text-decoration: none;
 	color: black;
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 .image-caption {
+	font-size: small;
+	font-weight: bold;
+	line-height: 250%;
 	color: gray;
 	overflow: hidden;
-	/*float: right;*/
+	position: absolute;
+	top:0;
+	right: 0;
 }
+
+
+
 
 
