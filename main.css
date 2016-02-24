@@ -1,4 +1,25 @@
-* {
-	border: 1px solid red;
+
 }
-/*largest box containing the rest of the elements */
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+body {
+	height: 500px;
+	border: 1px solid gray;
+	overflow: hidden;
+}
+.octodex {
+	margin: 15px;
+	height: 470px;
+	border: 1px solid gray;
+	float: ;
+}
+.octodex img {
+	height: 375px;
+	float: left;
+}
+.authors img {
+	height: 20px;
+}
