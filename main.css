@@ -5,7 +5,9 @@ ul {
 }
 /*main container, largest box*/
 body {
+	padding: 0px;
 	height: 500px;
+	width: 1233px;
 	border: 4px solid gray;
 	overflow: hidden;
 	position: relative;
@@ -19,7 +21,6 @@ body {
 /*The images of the cats*/
 .octocat img {
 	margin:10px;
-	margin-top: 10px;
 	border: 3px solid gray;
 	height: 375px;
 	/*float: left;*/
@@ -33,6 +34,10 @@ li.octocat {
 	height: 40px;
 }
 .image-number {
-
+	float: left;
+}
+.image-caption {
+	overflow: hidden;
+	float: right;
 }
 
